@@ -1,0 +1,33 @@
+footer {
+    font-size: 25px;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: -200px;
+    clear: both;
+    position: relative;
+    height: 200px;
+}
+topnav {
+    display: inline-block;
+    list-style-type: none;
+    background: rgb(143, 20, 20);
+}
+nav {
+    display: inline-block;
+    list-style-type: none;
+}
+
+section {
+    font-size: 30px;
+    background: greenyellow;
+
+}
+section nav{
+    background-color: honeydew;
+    padding: 10px;
+    display: block;
+    
+    
+}

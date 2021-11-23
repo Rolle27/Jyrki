@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="third.css">  
 <head>
 <title>Facebook</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body {background-color: blue}
+  body {background-color: rgb(0, 183, 255)}
 * {
   box-sizing: border-box;
 }
@@ -19,20 +20,22 @@ body {
     
     color: cornsilk;
     font-size: 50px;
-  background-color: blue;
+  background-color: rgba(0, 183, 255, 0.836);
   padding: 50px;
   text-align: center;
 }
 
 /* Style the top navigation bar */
 .topnav {
+    text-align: center;
+   float: center;
   overflow: hidden;
   background-color: #333;
 }
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
+    float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -42,8 +45,10 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
+    float: center;
   background-color: peachpuff;
   color: black;
+  text-align: center;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -61,6 +66,15 @@ body {
   clear: both;
 }
 
+nav {
+  float: left;
+  width: 15%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
@@ -71,7 +85,7 @@ body {
 </head>
 <body>
 
- 
+        
 
 
 <div class="header">
@@ -84,8 +98,18 @@ body {
   <a href="https://www.instagram.com/jyrkithesausage/?hl=fi">Instagram</a>
   <a href="index.html">Kotisivut</a>
   <a href="layout.html">Blogi</a>
-   <a href="third.html">Yhteistiedot</a>
+  <a href="third.html">Yhteistiedot</a>
+   
 </div>
+
+<section>
+    <nav>
+      <ul>
+        <li><a href="https://www.google.fi/"target=”_blank” >Google</a></li>
+        <li><a href="https://www.youtube.com/" target=”_blank”>Youtube</a></li>
+        
+      </ul>
+    </nav>
 
 <div class="row">
   <div class="column">
@@ -98,15 +122,13 @@ body {
     <p><img src="img/ranta.jpg" alt="Trulli" width="300" height="333" ></p>
   </div>
   
-  <div class="column">
-    <h2>Ota yhteyttä!</h2>
-    <p><img src="img/jyrki.jpg" alt="Trulli" width="300" height="333" ></p>
-  </div>
-</div>
+ 
 
-<div class="footer">
-  <h3></h3>
-</div>
+
+  <footer>
+    <p>Footer</p>
+  </footer>
+  
 
 
 
