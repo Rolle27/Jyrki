@@ -1,0 +1,15 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  div {
+      float: left;
+      box-sizing: content-box;
+      font-size: 25px;
+      background-color: black;
+      color: white;
+      
+  }
+  col {
+      font-size: 25px;
+  }
